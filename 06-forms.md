@@ -60,6 +60,36 @@ Everything a user fills out and submits goes inside a `<form>` tag.
 > [!NOTE]
 > `placeholder` disappears once you start typing — never use it as a replacement for `<label>`.
 
+## Putting it together
+
+A form usually has more than one field. Here's a simple sign-up form using everything above.
+
+```html live
+<form>
+  <label for="username">Username</label>
+  <input type="text" id="username" name="username" placeholder="e.g. adwait123">
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" placeholder="you@example.com">
+
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password" placeholder="Enter a password">
+</form>
+```
+
+**Result:**
+
+<form>
+  <label for="username">Username</label>
+  <input type="text" id="username" name="username" placeholder="e.g. adwait123">
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" placeholder="you@example.com">
+
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password" placeholder="Enter a password">
+</form>
+
 ## Try it yourself
 
-Add a third field for phone number, with its own label, id, name, and placeholder.
+Add a fourth field for phone number, with its own label, id, name, and placeholder.
