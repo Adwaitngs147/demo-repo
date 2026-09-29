@@ -21,7 +21,7 @@ The `<a>` (anchor) element creates a link. The `href` attribute holds the destin
 
 `href` can point to different places:
 
-- **A full URL** like `https://osdc.dev` links to another website.
+- **A full URL** like `https://osdc.dev` links to Osdc website.
 - **A file path** like `about.html` links to another page in your project.
 - **An id** like `#contact` jumps to the element with `id="contact"` on the same page.
 
