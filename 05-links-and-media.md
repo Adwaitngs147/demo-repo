@@ -27,7 +27,7 @@ The `<a>` (anchor) element creates a link. The `href` attribute holds the destin
 
 ```html live
 <ul>
-  <li><a href="https://example.com">Another website</a></li>
+  <li><a href="https://osdc.dev">Another website</a></li>
   <li><a href="about.html">Another page</a></li>
   <li><a href="#contact">Jump to contact</a></li>
 </ul>
@@ -38,7 +38,7 @@ The `<a>` (anchor) element creates a link. The `href` attribute holds the destin
 **Result:**
 
 <ul>
-  <li><a href="https://example.com">Another website</a></li>
+  <li><a href="https://osdc.dev">Another website</a></li>
   <li><a href="about.html">Another page</a></li>
   <li><a href="#contact">Jump to contact</a></li>
 </ul>
