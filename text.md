@@ -66,36 +66,7 @@ Comments let you leave notes in your code that the browser completely ignores �
 > [!NOTE]
 > Don't overuse `<br>` to create spacing between paragraphs — that's what CSS margins are for. `<br>` is for breaking a line within the same block of content, like an address or a poem.
 
-## A few more useful tags
 
-- `<small>` — for fine print, like disclaimers or copyright text
-- `<mark>` — highlights text, like a highlighter pen
-- `<sub>` and `<sup>` — subscript and superscript, useful for things like H₂O or x²
-- `<blockquote>` — for quoting text from another source
-- `<hr>` — draws a horizontal line, useful for separating sections
-
-```html live
-<p><small>© 2026 All rights reserved.</small></p>
-<p>Don't forget to <mark>submit by Friday</mark>.</p>
-<p>Water is H<sub>2</sub>O.</p>
-<p>2<sup>3</sup> = 8</p>
-<blockquote>The best way to learn HTML is by writing it.</blockquote>
-<hr>
-<p>Content after the divider.</p>
-```
-
-**Result:**
-
-<p><small>© 2026 All rights reserved.</small></p>
-<p>Don't forget to <mark>submit by Friday</mark>.</p>
-<p>Water is H<sub>2</sub>O.</p>
-<p>2<sup>3</sup> = 8</p>
-<blockquote>The best way to learn HTML is by writing it.</blockquote>
-<hr>
-<p>Content after the divider.</p>
-
-> [!NOTE]
-> `<hr>` is self-closing, just like `<br>` — no closing tag needed.
 
 ## Try it yourself
 
