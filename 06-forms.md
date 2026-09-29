@@ -26,13 +26,6 @@ Everything a user fills out and submits goes inside a `<form>` tag.
 </form>
 ```
 
-**Result:**
-
-<form>
-  <label for="username">Username</label>
-  <input type="text" id="username" name="username">
-</form>
-
 ## What does it mean?
 
 - `id="username"` on the input matches `for="username"` on the label — this links them together, so clicking the label focuses the input.
@@ -50,19 +43,27 @@ Everything a user fills out and submits goes inside a `<form>` tag.
 </form>
 ```
 
-**Result:**
-
-<form>
-  <label for="email">Email</label>
-  <input type="email" id="email" name="email" placeholder="you@example.com">
-</form>
-
 > [!NOTE]
 > `placeholder` disappears once you start typing — never use it as a replacement for `<label>`.
 
+## Submit button
+
+`<button type="submit">` submits the form when clicked.
+
+```html live
+<form>
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email">
+  <button type="submit">Sign up</button>
+</form>
+```
+
+> [!NOTE]
+> `type="submit"` is what makes it submit the form. Without it, a `<button>` inside a form does nothing by default.
+
 ## Putting it together
 
-A form usually has more than one field. Here's a simple sign-up form using everything above.
+A form usually has more than one field, and a button to submit it. Here's a simple sign-up form using everything above.
 
 ```html live
 <form>
@@ -74,21 +75,10 @@ A form usually has more than one field. Here's a simple sign-up form using every
 
   <label for="password">Password</label>
   <input type="password" id="password" name="password" placeholder="Enter a password">
+
+  <button type="submit">Sign up</button>
 </form>
 ```
-
-**Result:**
-
-<form>
-  <label for="username">Username</label>
-  <input type="text" id="username" name="username" placeholder="e.g. adwait123">
-
-  <label for="email">Email</label>
-  <input type="email" id="email" name="email" placeholder="you@example.com">
-
-  <label for="password">Password</label>
-  <input type="password" id="password" name="password" placeholder="Enter a password">
-</form>
 
 ## Try it yourself
 
