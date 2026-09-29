@@ -21,13 +21,13 @@ The `<a>` (anchor) element creates a link. The `href` attribute holds the destin
 
 `href` can point to different places:
 
-- **A full URL** like `https://example.com` links to another website.
+- **A full URL** like `https://osdc.dev` links to another website.
 - **A file path** like `about.html` links to another page in your project.
 - **An id** like `#contact` jumps to the element with `id="contact"` on the same page.
 
 ```html live
 <ul>
-  <li><a href="https://osdc.dev">Another website</a></li>
+  <li><a href="https://osdc.dev">Osdc website</a></li>
   <li><a href="about.html">Another page</a></li>
   <li><a href="#contact">Jump to contact</a></li>
 </ul>
@@ -38,7 +38,7 @@ The `<a>` (anchor) element creates a link. The `href` attribute holds the destin
 **Result:**
 
 <ul>
-  <li><a href="https://osdc.dev">Another website</a></li>
+  <li><a href="https://osdc.dev">Osdc Website</a></li>
   <li><a href="about.html">Another page</a></li>
   <li><a href="#contact">Jump to contact</a></li>
 </ul>
