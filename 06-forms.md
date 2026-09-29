@@ -67,6 +67,50 @@ Not everything is a single-line `<input>`. A few other common fields:
 - `<textarea>` is for longer, multi-line text — unlike `<input>`, it has an opening and closing tag, and whatever's typed goes between them.
 - `type="checkbox"` gives a box the user can tick on or off, useful for yes/no choices.
 
+## Radio buttons
+
+Checkboxes let the user pick any number of options. Radio buttons let them pick only one.
+
+```html live
+<form>
+  <label for="free"><input type="radio" id="free" name="plan" value="free"> Free</label>
+  <label for="pro"><input type="radio" id="pro" name="plan" value="pro"> Pro</label>
+</form>
+```
+
+> [!NOTE]
+> Radio buttons in the same group must share the same `name` — that is what makes picking one un-pick the others. Each still needs its own `id` and `value`.
+
+## Dropdown menus
+
+`<select>` creates a dropdown list. Each choice goes inside an `<option>`.
+
+```html live
+<form>
+  <label for="country">Country</label>
+  <select id="country" name="country">
+    <option value="india">India</option>
+    <option value="usa">United States</option>
+    <option value="uk">United Kingdom</option>
+  </select>
+</form>
+```
+
+> [!NOTE]
+> The text between the `<option>` tags is what the user sees. The `value` is what gets sent when that choice is picked.
+
+## Required fields
+
+Add `required` to a field and the browser will not submit the form until it is filled in.
+
+```html live
+<form>
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" required>
+  <button type="submit">Sign up</button>
+</form>
+```
+
 ## Submit button
 
 `<button type="submit">` submits the form when clicked.
