@@ -155,4 +155,4 @@ A form usually has more than one field, and a button to submit it. Here's a simp
 
 ## Try it yourself
 
-Add a fourth field for phone number, with its own label, id, name, and placeholder.
+Add another field for phone number, with its own label, id, name, and placeholder.
