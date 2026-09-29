@@ -15,6 +15,12 @@ HTML has six levels of headings, `<h1>` through `<h6>`, used to show the structu
 <p>This is a regular paragraph of text.</p>
 ```
 
+**Result:**
+
+<h1>Main heading</h1>
+<h2>A smaller heading</h2>
+<p>This is a regular paragraph of text.</p>
+
 ## Adding emphasis
 
 To make text stand out, use `<em>` for emphasis and `<strong>` for importance. Both usually render as italic and bold, but they mean something different to the browser and to screen readers — not just a visual style.
@@ -23,6 +29,11 @@ To make text stand out, use `<em>` for emphasis and `<strong>` for importance. B
 <p>You should <em>really</em> read this.</p>
 <p>This step is <strong>required</strong> before continuing.</p>
 ```
+
+**Result:**
+
+<p>You should <em>really</em> read this.</p>
+<p>This step is <strong>required</strong> before continuing.</p>
 
 ## What does it mean?
 
@@ -41,6 +52,10 @@ You'll also come across `<u>`, which underlines text. It looks like a good way t
 <p>Roses are red<br>Violets are blue</p>
 ```
 
+**Result:**
+
+<p>Roses are red<br>Violets are blue</p>
+
 Comments let you leave notes in your code that the browser completely ignores — useful for explaining tricky bits, or temporarily "turning off" a line without deleting it.
 
 ```html live
@@ -50,6 +65,37 @@ Comments let you leave notes in your code that the browser completely ignores �
 
 > [!NOTE]
 > Don't overuse `<br>` to create spacing between paragraphs — that's what CSS margins are for. `<br>` is for breaking a line within the same block of content, like an address or a poem.
+
+## A few more useful tags
+
+- `<small>` — for fine print, like disclaimers or copyright text
+- `<mark>` — highlights text, like a highlighter pen
+- `<sub>` and `<sup>` — subscript and superscript, useful for things like H₂O or x²
+- `<blockquote>` — for quoting text from another source
+- `<hr>` — draws a horizontal line, useful for separating sections
+
+```html live
+<p><small>© 2026 All rights reserved.</small></p>
+<p>Don't forget to <mark>submit by Friday</mark>.</p>
+<p>Water is H<sub>2</sub>O.</p>
+<p>2<sup>3</sup> = 8</p>
+<blockquote>The best way to learn HTML is by writing it.</blockquote>
+<hr>
+<p>Content after the divider.</p>
+```
+
+**Result:**
+
+<p><small>© 2026 All rights reserved.</small></p>
+<p>Don't forget to <mark>submit by Friday</mark>.</p>
+<p>Water is H<sub>2</sub>O.</p>
+<p>2<sup>3</sup> = 8</p>
+<blockquote>The best way to learn HTML is by writing it.</blockquote>
+<hr>
+<p>Content after the divider.</p>
+
+> [!NOTE]
+> `<hr>` is self-closing, just like `<br>` — no closing tag needed.
 
 ## Try it yourself
 
