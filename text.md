@@ -35,14 +35,22 @@ To make text stand out, use `<em>` for emphasis and `<strong>` for importance. B
 <p>You should <em>really</em> read this.</p>
 <p>This step is <strong>required</strong> before continuing.</p>
 
+
 ## What does it mean?
 
 `<em>` tells the browser "the reader should stress this word" — it's read with vocal emphasis by screen readers, not just shown in italics. `<strong>` tells the browser "this is important," and is read with more weight, not just shown in bold.
 
-You'll also come across `<u>`, which underlines text. It looks like a good way to underline for style, but it's not — `<u>` has a specific, narrow meaning (like marking a spelling mistake or a proper name), and browsers underline links by default too, so using `<u>` elsewhere can confuse readers into thinking your text is a link.
+## Underline
 
-> [!NOTE]
-> If you just want something to look underlined, that's a job for CSS (`text-decoration: underline`), not `<u>`. Save `<u>` for its actual purpose, not for styling.
+`<u>` underlines text.
+
+```html live
+<p>This is <u>underlined</u>.</p>
+```
+
+**Result:**
+
+<p>This is <u>underlined</u>.</p>
 
 ## Line breaks and comments
 
