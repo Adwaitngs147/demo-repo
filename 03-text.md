@@ -48,9 +48,6 @@ To make text stand out, use `<em>` for emphasis and `<strong>` for importance. B
 <p>This is <u>underlined</u>.</p>
 ```
 
-**Result:**
-
-<p>This is <u>underlined</u>.</p>
 
 ## Line breaks and comments
 
