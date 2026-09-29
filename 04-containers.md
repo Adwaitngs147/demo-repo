@@ -23,6 +23,18 @@ The `<div>` element is a generic container used to group related HTML elements t
 <p>I am learning HTML.</p>
 </div>
 
+## Class
+
+`class` lets you label an element so you can style or target it later — especially useful when you want the same style on more than one element.
+
+```html live
+<div class="card">First card</div>
+<div class="card">Second card</div>
+```
+
+> [!NOTE]
+> Adding a `class` by itself doesn't change how anything looks — it just gives the browser (and your future CSS) something to target.
+
 ## Unordered lists
 
 Use `<ul>` (unordered list) when the order of items doesn't matter. Every item goes in its own `<li>` (list item) tag, and browsers add bullets automatically.

@@ -46,6 +46,27 @@ Everything a user fills out and submits goes inside a `<form>` tag.
 > [!NOTE]
 > `placeholder` disappears once you start typing — never use it as a replacement for `<label>`.
 
+## More field types
+
+Not everything is a single-line `<input>`. A few other common fields:
+
+```html live
+<form>
+  <label for="bio">Bio</label>
+  <textarea id="bio" name="bio" placeholder="Tell us about yourself"></textarea>
+
+  <label for="subscribe">
+    <input type="checkbox" id="subscribe" name="subscribe">
+    Subscribe to updates
+  </label>
+</form>
+```
+
+## What does it mean?
+
+- `<textarea>` is for longer, multi-line text — unlike `<input>`, it has an opening and closing tag, and whatever's typed goes between them.
+- `type="checkbox"` gives a box the user can tick on or off, useful for yes/no choices.
+
 ## Submit button
 
 `<button type="submit">` submits the form when clicked.
@@ -75,6 +96,14 @@ A form usually has more than one field, and a button to submit it. Here's a simp
 
   <label for="password">Password</label>
   <input type="password" id="password" name="password" placeholder="Enter a password">
+
+  <label for="bio">Bio</label>
+  <textarea id="bio" name="bio" placeholder="Tell us about yourself"></textarea>
+
+  <label for="subscribe">
+    <input type="checkbox" id="subscribe" name="subscribe">
+    Subscribe to updates
+  </label>
 
   <button type="submit">Sign up</button>
 </form>
