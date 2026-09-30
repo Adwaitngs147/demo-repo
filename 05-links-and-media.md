@@ -48,15 +48,6 @@ The `<a>` (anchor) element creates a link. The `href` attribute holds the destin
 > [!NOTE]
 > Write link text that makes sense on its own. "Read the HTML guide" is better than "click here", because screen reader users often jump from link to link.
 
-To open a link in a new tab, add `target="_blank"` and pair it with `rel="noopener noreferrer"`.
-
-```html live
-<a href="https://example.com" target="_blank" rel="noopener noreferrer">Open in a new tab</a>
-```
-
-**Result:**
-
-<a href="https://example.com" target="_blank" rel="noopener noreferrer">Open in a new tab</a>
 
 ## Images with img
 
