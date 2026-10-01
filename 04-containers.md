@@ -16,12 +16,7 @@ The `<div>` element is a generic container used to group related HTML elements t
 </div>
 ```
 
-**Result:**
 
-<div>
-<h2>About me</h2>
-<p>I am learning HTML.</p>
-</div>
 
 ## Class
 
@@ -47,13 +42,7 @@ Use `<ul>` (unordered list) when the order of items doesn't matter. Every item g
 </ul>
 ```
 
-**Result:**
 
-<ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
-</ul>
 
 ## Ordered lists
 
@@ -67,13 +56,6 @@ Use `<ol>` (ordered list) when the order matters, like steps or rankings. It use
 </ol>
 ```
 
-**Result:**
-
-<ol>
-  <li>Write some HTML</li>
-  <li>Save the file</li>
-  <li>Open it in the browser</li>
-</ol>
 
 ## Using lists properly
 
@@ -93,17 +75,6 @@ Use `<ol>` (ordered list) when the order matters, like steps or rankings. It use
 </ul>
 ```
 
-**Result:**
-
-<ul>
-  <li>Frontend
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ul>
-  </li>
-  <li>Backend</li>
-</ul>
 
 > [!NOTE]
 > Putting a nested `<ul>` directly inside the outer `<ul>` (between two `<li>` tags) may look fine, but it's invalid HTML.
@@ -156,31 +127,7 @@ This page uses all five semantic tags, plus a list inside `<nav>` and an ordered
 </footer>
 ```
 
-**Result:**
 
-<header>
-  <h1>My Study Notes</h1>
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Notes</a></li>
-    </ul>
-  </nav>
-</header>
-
-<main>
-  <section>
-    <h2>Today's goals</h2>
-    <ol>
-      <li>Learn about lists</li>
-      <li>Learn about semantic tags</li>
-    </ol>
-  </section>
-</main>
-
-<footer>
-  <p>&copy; 2026 My Study Notes</p>
-</footer>
 
 > [!NOTE]
 > If a group of content has no natural heading, use `<div>` instead of `<section>`. Use `<div>` whenever you only need a container for styling.

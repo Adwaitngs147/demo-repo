@@ -13,9 +13,7 @@ The `<a>` (anchor) element creates a link. The `href` attribute holds the destin
 <p>Learn more at <a href="https://developer.mozilla.org">MDN Web Docs</a>.</p>
 ```
 
-**Result:**
 
-<p>Learn more at <a href="https://developer.mozilla.org">MDN Web Docs</a>.</p>
 
 ## Link destinations
 
@@ -35,15 +33,7 @@ The `<a>` (anchor) element creates a link. The `href` attribute holds the destin
 <h2 id="contact">Contact</h2>
 ```
 
-**Result:**
 
-<ul>
-  <li><a href="https://osdc.dev">Osdc Website</a></li>
-  <li><a href="about.html">Another page</a></li>
-  <li><a href="#contact">Jump to contact</a></li>
-</ul>
-
-<h2 id="contact">Contact</h2>
 
 > [!NOTE]
 > Write link text that makes sense on its own. "Read the HTML guide" is better than "click here", because screen reader users often jump from link to link.
@@ -62,9 +52,7 @@ The `<img>` element displays an image. It's self-closing (no `</img>`) and needs
 <img src="https://placehold.co/300x150" alt="A grey placeholder rectangle">
 ```
 
-**Result:**
 
-<img src="https://placehold.co/300x150" alt="A grey placeholder rectangle">
 
 ## Why alt matters
 
@@ -74,9 +62,7 @@ The `<img>` element displays an image. It's self-closing (no `</img>`) and needs
 <img src="missing-photo.jpg" alt="A dog catching a frisbee at the beach">
 ```
 
-**Result:**
 
-<img src="missing-photo.jpg" alt="A dog catching a frisbee at the beach">
 
 > [!NOTE]
 > Describe what the image shows, not "image of...". For a purely decorative image, use an empty `alt=""`. Never leave `alt` out entirely.
@@ -91,11 +77,7 @@ An image inside a link becomes clickable. It still needs both `src` and `alt`.
 </a>
 ```
 
-**Result:**
 
-<a href="https://developer.mozilla.org">
-  <img src="https://placehold.co/200x100" alt="Visit MDN Web Docs">
-</a>
 
 ## Try it yourself
 

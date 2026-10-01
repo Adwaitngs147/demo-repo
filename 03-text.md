@@ -15,11 +15,6 @@ HTML has six levels of headings, `<h1>` through `<h6>`, used to show the structu
 <p>This is a regular paragraph of text.</p>
 ```
 
-**Result:**
-
-<h1>Main heading</h1>
-<h2>A smaller heading</h2>
-<p>This is a regular paragraph of text.</p>
 
 ## Adding emphasis
 
@@ -30,10 +25,7 @@ To make text stand out, use `<em>` for emphasis and `<strong>` for importance. B
 <p>This step is <strong>required</strong> before continuing.</p>
 ```
 
-**Result:**
 
-<p>You should <em>really</em> read this.</p>
-<p>This step is <strong>required</strong> before continuing.</p>
 
 
 ## What does it mean?
@@ -57,9 +49,7 @@ To make text stand out, use `<em>` for emphasis and `<strong>` for importance. B
 <p>Roses are red<br>Violets are blue</p>
 ```
 
-**Result:**
 
-<p>Roses are red<br>Violets are blue</p>
 
 Comments let you leave notes in your code that the browser completely ignores — useful for explaining tricky bits, or temporarily "turning off" a line without deleting it.
 
